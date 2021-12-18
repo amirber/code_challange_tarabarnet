@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started 
 حتما قبل از اجرا نود ماژول نصب شود.
 برای اجرا حتما اول دستور زیر را برای اجرای سرور وارد کنید : 
 json-server --watch ./data/db.json
