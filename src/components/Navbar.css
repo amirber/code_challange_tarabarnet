@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  background: #4287f5;
+  padding: 20px;
+  color: #fff;
+}
+
+.navbar nav {
+  display: flex;
+  max-width: 1200px;
+  align-items: center;
+}
+.navbar a.brand {
+  margin-right: auto;
+  color: #fff;
+  text-decoration: none;
+}
+.navbar .home {
+  margin: 0 50px;
+  color: #fff;
+  text-decoration: none;
+}
+.navbar .about-us {
+  color: #fff;
+  text-decoration: none;
+}

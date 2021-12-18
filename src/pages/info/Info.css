@@ -1,0 +1,48 @@
+.info {
+  max-width: 1200px;
+  margin: 40px auto;
+  text-align: center;
+  background: #fff;
+  padding: 40px;
+  box-sizing: border-box;
+}
+.info .image {
+  border-radius: 50%;
+  max-width: 100px;
+ }
+.info ul {
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  margin-top: 0;
+}
+.info li {
+  list-style-type: none;
+  margin-right: 10px;
+  color: #777;
+}
+.info li::after {
+  content: ",";
+}
+.info li:last-child::after {
+  content: ".";
+}
+.info .remove-btn {
+  color: #fff;
+  display: block;
+  background: #fc0307;
+  font-size: 0.9em;
+  text-align: center;
+  padding: 8px;
+  border-radius: 4px;
+  margin: 20px auto 0;
+  border: 1px solid;
+  border-radius: 10px;
+}
+.info .remove-btn:hover {
+  cursor:pointer
+}
+.description {
+  text-align: right;
+  line-height: 1.5em;
+}
